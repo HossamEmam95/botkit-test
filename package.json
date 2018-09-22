@@ -1,39 +1,17 @@
 {
-  "name": "botkit-starter-facebook",
-  "version": "0.0.2",
-  "description": "A starter kit for building a custom Facebook Messenger bot with Botkit Studio",
-  "main": "bot.js",
+  "name": "botkit-middleware-watson-multi-bot-example",
+  "version": "0.0.1",
+  "description": "Multiple social channel bot example using botkit-middleware-watson with Botkit.",
+  "main": "server.js",
   "scripts": {
-    "start": "node bot.js"
+    "start": "node server.js"
   },
+  "license": "Apache-2.0",
   "dependencies": {
-    "body-parser": "^1.15.2",
-    "botkit": "^0.6.15",
-    "botkit-studio-metrics": "^0.0.1",
-    "debug": "^2.6.0",
-    "express": "^4.14.0",
-    "node-env-file": "^0.1.8",
-    "request": "^2.79.0",
-    "wordfilter": "^0.2.6",
-    "a": "^2.1.2",
-    "aws-sdk": "^2.309.0",
-    "pg": "^7.4.3"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/howdyai/botkit-starter-facebook.git"
-  },
-  "bugs": {
-    "url": "https://github.com/howdyai/botkit-starter-facebook/issues"
-  },
-  "homepage": "https://github.com/howdyai/botkit-starter-facebook",
-  "keywords": [
-    "bots",
-    "chatbots",
-    "Facebook",
-    "Messenger"
-  ],
-  "author": "ben@howdy.ai",
-  "license": "ISC"
+    "body-parser": "^1.18.3",
+    "botkit": "^0.6.16",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "botkit-middleware-watson": "^1.7.1"
+  }
 }
