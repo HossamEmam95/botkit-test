@@ -41,6 +41,7 @@ app.get('/facebook/receive', (req, res) => {
 app.post('/facebook/receive', (req, res) => {
 
     let body = req.body;
+    console.log("post request ")
 
     if (body.object === 'page') {
 
