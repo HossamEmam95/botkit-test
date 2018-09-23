@@ -1,5 +1,9 @@
 var debug = require('debug')('botkit:incoming_webhooks');
 
+var express = require('express');
+var bodyParser = require('body-parser');
+var querystring = require('querystring');
+
 var webserver = express();
 webserver.use(bodyParser.json());
 webserver.use(bodyParser.urlencoded({ extended: true }));
