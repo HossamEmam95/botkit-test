@@ -20,10 +20,11 @@ webserver.listen(3000, null, function() {
         // NOTE: we should enforce the token check here
 
         // respond to Slack that the webhook has been received.
+        console.log("test: ", req.body);
+
         res.status(200);
         res.send('ok');
 
-        console.log(req.body);
 
         // Now, pass the webhook into be processed
 
